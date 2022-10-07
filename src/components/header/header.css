@@ -40,7 +40,7 @@ header{
 
 .me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
+    width: 20rem;
     height: 30rem;
     position: absolute;
     left: calc(50% - 10rem); /* minus half of the width*/
@@ -76,7 +76,7 @@ header{
 
 @media screen and (max-width: 600px) {
     header{
-        height: 100vh;
+        height: 85vh;
     }
     .header__socials, .scroll__down{
         display: none;
