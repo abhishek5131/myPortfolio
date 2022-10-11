@@ -1,12 +1,13 @@
 import React from 'react'
 import './about.css'
 
-const about = () => {
+
+import React from 'react'
+
+const About = () => {
   return (
-    <section id='about'>
-      About
-    </section>
+    <div>About</div>
   )
 }
 
-export default about
+export default About
