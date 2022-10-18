@@ -1,14 +1,14 @@
 import React from 'react'
 
 import './about.css'
-import Me from '../../assets/about-me.jpg'
+import Me from '../../assets/walk.jpg'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscRootFolder} from 'react-icons/vsc'
 
 const About = () => {
   return (
-    <div id='about'>
+    <section id='about'>
       <h5>Get To Know</h5>
       <h2>About Me</h2>
       <div className="container about__container">
@@ -31,7 +31,7 @@ const About = () => {
             </article><article className='about__card'>
               <VscRootFolder className='about__icon'/>
               <h5>Projects</h5>
-              <small>2+ Completed Projects </small>
+              <small>2+ Completed</small>
             </article>
           </div>
           <p>
@@ -42,7 +42,7 @@ const About = () => {
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 
