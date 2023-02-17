@@ -96,7 +96,7 @@ const experience = () => {
               <article className='experience__detail'>
                 <BsFillPatchCheckFill className='experience__detail-icon'/>
                 <div>
-                <h4>SQL</h4>
+                <h4>PostgreSQL</h4>
                 <small className='text-light'>Intermediate</small>
                 </div>
               </article>
