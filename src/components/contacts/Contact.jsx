@@ -1,7 +1,7 @@
 import React from 'react'
 import './contact.css'
 import {HiOutlineMail} from 'react-icons/hi'
-import {BsWhatsapp} from 'react-icons/bs'
+import {AiFillLinkedin} from 'react-icons/ai'
 const contact = () => {
   return (
     <section id='contact'>
@@ -17,10 +17,9 @@ const contact = () => {
             <a href="mailto:dummy@gmail.com">Send a message</a>
           </article>
           <article className="contact__option">
-            <BsWhatsapp className='contact__option-icon'/>
-            <h4>WhatsApp</h4>
-            <h5>+91 **** *** **8</h5>
-            <a href="https://api.whatsapp.com/send?phone=+91*********8">Send a message</a>
+            <AiFillLinkedin className='contact__option-icon'/>
+            <h4>LinkedIn</h4>
+            <a href="https://www.linkedin.com/in/abhishek-singh5131">Click on here</a>
           </article>
         </div>
         <form action="">
