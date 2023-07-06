@@ -2,9 +2,9 @@ import React from 'react'
 
 import './about.css'
 import Me from '../../assets/walk.jpg'
-import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
-import {VscRootFolder} from 'react-icons/vsc'
+import { FaAward } from 'react-icons/fa'
+import { FiUsers } from 'react-icons/fi'
+import { VscRootFolder } from 'react-icons/vsc'
 
 const About = () => {
   return (
@@ -20,24 +20,25 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className='about__card'>
-              <FaAward className='about__icon'/>
+              <FaAward className='about__icon' />
               <h5>Experience</h5>
               <small>1+ Year</small>
             </article>
             <article className='about__card'>
-              <FiUsers className='about__icon'/>
+              <FiUsers className='about__icon' />
               <h5>Clients</h5>
               <small>Nill</small>
             </article><article className='about__card'>
-              <VscRootFolder className='about__icon'/>
+              <VscRootFolder className='about__icon' />
               <h5>Projects</h5>
               <small>2+ Completed</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptate aperiam odio alias 
-            vero dolor maxime illo fugit, possimus ut voluptatibus. Voluptatum ipsam inventore quibusdam 
-            quae quia, labore voluptas veritatis.
+            Front-End Developer with ability to collaborate effectively with other developers while spending extra time to be
+            mentored. With a passion for both personal growth and for software
+            development, I intend to learn new languages while sharpening existing skills to gain Full-Stack knowledge. Ready
+            to apply my passion for coding to a talented engineering team to develop quality solutions.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
