@@ -2,6 +2,7 @@ import React from 'react'
 import './contact.css'
 import {HiOutlineMail} from 'react-icons/hi'
 import {AiFillLinkedin} from 'react-icons/ai'
+import {AiFillGithub} from 'react-icons/ai'
 const contact = () => {
   return (
     <section id='contact'>
@@ -20,6 +21,11 @@ const contact = () => {
             <AiFillLinkedin className='contact__option-icon'/>
             <h4>LinkedIn</h4>
             <a href="https://www.linkedin.com/in/abhishek-singh5131">Click on here</a>
+          </article>
+          <article className="contact__option">
+            <AiFillGithub className='contact__option-icon'/>
+            <h4>Github</h4>
+            <a href="https://github.com/abhishek5131">Click on here</a>
           </article>
         </div>
         <form action="">
